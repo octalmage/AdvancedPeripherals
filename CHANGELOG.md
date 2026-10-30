@@ -6,6 +6,8 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+- Add face-aware `getFilter` and `setFilter` for Create brass tunnels.
+
 ## [1.21.1-0.8.2a] - 2026-10-04
 - \[Breaking Change\] All overlay objects can draw on both in world or on GUI now. Use `gui` field to differ the render space.
 - Add Smart Chestplate that may perform various operations via smartglasses (in-dev, not final textures, feedback welcome!)

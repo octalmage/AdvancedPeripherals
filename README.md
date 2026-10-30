@@ -27,6 +27,18 @@ mods like **[PeripheralsPlusOne]**.*
 <br>
 <br>
 
+## Create filters
+
+```lua
+tunnel.getFilter("north")
+tunnel.setFilter({ type = "item", item = { name = "minecraft:iron_ingot" } }, "north")
+tunnel.setFilter(nil, "north") -- clear
+```
+
+Tunnel faces: `north`, `south`, `east`, `west`.
+Tunnels require a valid port face. Other blocks can omit it.
+List/attribute filters still require the matching physical filter.
+
 ## Contributing
 Contributions to the project are always welcome! <br>
 Read our [Contribution](CONTRIBUTING.md) Guidelines to get started.
